@@ -1,5 +1,10 @@
 # Stigma - ベルセルク
-This is
+<img src="https://images.fineartamerica.com/images/artworkimages/medium/3/berserk-logo-anime-art-anime-art-transparent.png" width="250" height="300" style=flexbox> 
+Stigma (ベルセルク)
+
+Greetings and welcome to "Stigma (ベルセルク)"
+
+Thank you for visiting and exploring my world of aesthetics and beauty. May your creative journey be as splendid as the eclipe (ベルセルク) from which "Stigma" takes its name.
 
 # 📋 Information
 Here are the details for the tested setup:
@@ -11,3 +16,5 @@ Here are the details for the tested setup:
  - **Compositor:** [Picom](https://github.com/yshui/picom)
  - **Application Launcher:** [rofi](https://github.com/davatorium/rofi)
  - **Music Player:** [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
+
+# 💻 Gallery
