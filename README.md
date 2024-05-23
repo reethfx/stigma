@@ -1,6 +1,8 @@
 # Stigma - ベルセルク
+<p align="center">
 <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/berserk-logo-anime-art-anime-art-transparent.png" width="250" height="300" style=flexbox> 
 Stigma (ベルセルク)
+</p>
 
 Greetings and welcome to "Stigma (ベルセルク)"
 
