@@ -2,7 +2,7 @@
   description = "XNM's NixOS Configuration";
 
   inputs = {
-      nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+      nixpkgs.url = "github:NixOS/nixpkgs/24.05"; #FIXME You have to specify your current nixpkgs version, such us on the configuration.nix file
       rust-overlay.url = "github:oxalica/rust-overlay";
   };
 

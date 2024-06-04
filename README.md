@@ -95,11 +95,12 @@ You have the flexibility to customize these configurations according to your nee
 
    Alternatively, you can set it up manually or use [swap encryption with a random key](https://nixos.wiki/wiki/Swap#Encrypt_swap_with_random_key).
 
-4. To change the default username and/or hostname, run the command `rg --hidden 'xnm'` to find and fix all instances of the username, and `rg --hidden 'isitreal-laptop'` for the hostname. 🚨 Make sure to change the username to match yours set during installation to avoid login issues. 🚨 Also, don't forget to delete or change to yours the git settings in `home/.gitconfig`, `home/projects/.gitconfig.personal`, and `home/work/.gitconfig.work` files, as they are configured for my personal use.
+4. To change the default username and/or hostname, run the command `rg --hidden 'reeth'` to find and fix all instances of the username, and `rg --hidden 'b3rsrk'` for the hostname. 🚨 Make sure to change the username to match yours set during installation to avoid login issues. 🚨
+
 5. Enable `flake` support (more [here](https://nixos.wiki/wiki/Flakes#Enable_flakes_temporarily)) on your current system. Don't forget to run `sudo nixos-rebuild switch` after enabling `flake` in your `/etc/configuration.nix`.
 6. Copy or move all files (with replacements) from the `home` directory to your `$HOME` directory in Linux.
 7. Copy or move all files (with replacements and **sudo** permissions) from the `nixos` directory to `/etc/nixos/`. 🚨 Ensure that `system.stateVersion = "your_version";` is correctly set to the release version of the initial installation of your system in the `configuration.nix` file. 🚨 Also, for security reasons, ensure all files in the `/etc/nixos` directory are owned by **root**. If not, change ownership using the command: `sudo chown -R root:root /etc/nixos`.
-8. Run the command `sudo nixos-rebuild switch --flake /etc/nixos#your-hostname` or `nswitchu`. If you chose first command, replace `your-hostname` with your hostname before running the command; by default, hostname is set to `isitreal-laptop`.
+8. Run the command `sudo nixos-rebuild switch --flake /etc/nixos#your-hostname` or `nswitchu`. If you chose first command, replace `your-hostname` with your hostname before running the command; by default, hostname is set to `b3rsrk`.
 9. Post-installation configuration:
 
  - Import GNOME settings along with the theme by executing the following command: `dconf load / < home/.config/gnome_settings_backup.dconf`. Additionally, you can use tools like **gnome-tweaks** or **themechanger** to fine-tune specific theme preferences to your liking.
@@ -151,11 +152,10 @@ You have the flexibility to customize these configurations according to your nee
 | SUPER + T              | Launch `wezterm`             |
 | SUPER + D              | Launch `rofi -drun`          |
 | SUPER + B              | Launch `qutebrowser`         |
-| SUPER + SHIFT + B      | Launch `brave`               |
+| SUPER + SHIFT + F      | Launch `firefox`             |
 | SUPER + F              | Launch `thunar`              |
 | SUPER + ESCAPE         | Launch `wlogout`             |
 | SUPER + S              | Launch `spotify`             |
-| SUPER + Y              | Launch `youtube-music`       |
 | SUPER + SHIFT + D      | Launch `discord`             |
 | SUPER + SHIFT + T      | Launch `telegram`            |
 | SUPER + SHIFT + L      | Launch `hyprlock`            |
