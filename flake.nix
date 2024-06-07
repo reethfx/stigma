@@ -17,8 +17,9 @@
 
   outputs = inputs@{ nixpkgs, home-manager, ... }:
   {
+    #FIXME change the variable name to your hostname, mine is b3rsrk
     nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem {
+      b3rsrk = nixpkgs.lib.nixosSystem { 
         specialArgs = { inherit inputs; };
         system = "x86_64-linux";
         modules = [ 
