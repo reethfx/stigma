@@ -1,4 +1,4 @@
-<div align="center"><img src="https://images.fineartamerica.com/images/artworkimages/medium/3/berserk-logo-anime-art-anime-art-transparent.png" width="250" height="300"</img></div>
+<div align="center"><img src="https://cdn.discordapp.com/attachments/884503172578693120/1252029961519497329/StigmaOS.png?ex=6670bb44&is=666f69c4&hm=dbdd0dd9932487b2b84a674bb12090eab33247dbe44b38cfa648741084e14fa5&" width="500" height="500"</img></div>
 <h1 align="center">Stigma - ベルセルク</h1>
 
 Thank you for visiting and exploring my world of aesthetics and beauty based on the famous dark fantasy world. May your creative journey be as splendid as the eclipe from which "Stigma" takes its name.
